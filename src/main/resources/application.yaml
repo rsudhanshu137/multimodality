@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: multimodality
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      timeout: 90s
+
+server:
+  port: 9292
